@@ -12,7 +12,7 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
     val CLIENT_ID =  "0cc0574d6d3045239ebadf2f9ee20ff9"
-    val REDIRECT_URI = "https://hannam.shop:7777/"
+    val REDIRECT_URI = "http://hannam.shop:7777/callback"
     var mSpotifyAppRemote : SpotifyAppRemote? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
